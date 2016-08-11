@@ -1,5 +1,5 @@
 {
-    "name": "jakim/yii2-gii-adminlte2",
+    "name": "jakim-pj/yii2-gii-adminlte2",
     "description": "Generators with AdminLTE2 template",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","gii","adminlte2","lte2","generator","crud"],
