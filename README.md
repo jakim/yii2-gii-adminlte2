@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist jakim/yii2-gii-adminlte2 "*"
+php composer.phar require --prefer-dist jakim-pj/yii2-gii-adminlte2
 ```
 
 or add
 
 ```
-"jakim/yii2-gii-adminlte2": "*"
+"jakim-pj/yii2-gii-adminlte2": "1.0.0"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,4 +28,16 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \jakim\src\AutoloadExample::widget(); ?>```
+    $config['modules']['gii'] = [
+        'class' => 'yii\gii\Module',
+        'generators' => [
+            'crud' => [
+                'class' => 'yii\gii\generators\crud\Generator',
+                'template' => 'adminLte2',
+                'templates' => [
+                    'adminLte2' => '@vendor/jakim-pj/yii2-gii-adminLte2/generators/crud/',
+                ]
+            ]
+        ],
+    ];
+```
