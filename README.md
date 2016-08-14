@@ -16,7 +16,7 @@ php composer.phar require --prefer-dist jakim-pj/yii2-gii-adminlte2
 or add
 
 ```
-"jakim-pj/yii2-gii-adminlte2": "1.0.0"
+"jakim-pj/yii2-gii-adminlte2": "^1.0"
 ```
 
 to the require section of your `composer.json` file.
