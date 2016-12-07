@@ -16,7 +16,7 @@ php composer.phar require --prefer-dist jakim-pj/yii2-gii-adminlte2
 or add
 
 ```
-"jakim-pj/yii2-gii-adminlte2": "1.0.0"
+"jakim-pj/yii2-gii-adminlte2": "^1.0"
 ```
 
 to the require section of your `composer.json` file.
@@ -25,7 +25,7 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Add to: `config/web.php`
 
 ```php
     $config['modules']['gii'] = [
@@ -41,3 +41,7 @@ Once the extension is installed, simply use it in your code by  :
         ],
     ];
 ```
+
+Copy and customize main layout:
+
+`examples/views/layouts/main.php`
