@@ -45,3 +45,6 @@ Add to: `config/web.php`
 Copy and customize main layout:
 
 `examples/views/layouts/main.php`
+
+![Index](https://cloud.githubusercontent.com/assets/839118/18304750/75496518-74e4-11e6-9cd1-0e8d8dcef2a6.png)
+![Form](https://cloud.githubusercontent.com/assets/839118/18304751/75657a64-74e4-11e6-94de-2c92cc4e9c59.png)
